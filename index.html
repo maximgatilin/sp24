@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Закажите тур</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2em;
+    }
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 1em;
+      padding: 1em;
+      width: 300px;
+      text-align: center;
+    }
+    .card h2 {
+      margin-top: 0;
+    }
+    .card p {
+      color: #555;
+    }
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      padding: 0.5em 1em;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0.5em 0;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+    .preview {
+      display: block;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Закажите тур</h1>
+  </header>
+  <div class="container">
+    <div class="card">
+      <h2>Египет</h2>
+      <p>Самая населенная страна Ближнего Востока и вторая по числу населения в Африке</p>
+      <img class="preview" src="./egypt.jpg" />
+    </div>
+    <div class="card">
+      <h2>Стамбул</h2>
+      <p>В Стамбуле творилась великая история, которая повлияла на ход событий во всем мире.</p>
+      <img class="preview" src="./istambul.webp" />
+    </div>
+    <div class="card">
+      <h2>Мальдивы</h2>
+      <p>Климат и природа Мальдив идеально подходит для туристов, занимающихся водными видами спорта или развлечениями</p>
+      <img class="preview" src="./maldiv.webp" />
+    </div>
+  </div>
+</body>
+</html>
